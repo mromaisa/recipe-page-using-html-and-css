@@ -1,0 +1,46 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+}
+body{
+    background-color: rgba(252, 170, 137, 0.705);
+    
+}   
+#container{
+    background-color: aliceblue;
+    display: block;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 400px;
+    height: auto;
+    padding: 25px;
+    border-radius: 25px;
+}    
+h1,h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    font-weight: 550;
+    font-size: larger;
+    color: rgb(180, 62, 32);
+}
+#sep{
+    display: block;
+    padding: 13px;
+    background-color: rgba(233, 206, 255, 0.479);
+    font-size: small;
+}
+#sep h2{
+    color: rgb(126, 0, 63);
+}
+#span1, #span, #span3, #span2{
+    color: rgb(134, 56, 19);
+    float: right;
+}
+img{
+    width: 100%;
+    height: 15vw;
+    border-radius: 8px;
+}
